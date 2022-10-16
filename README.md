@@ -31,6 +31,28 @@ In this project the [CheXpert: A Large Chest Radiograph Dataset with Uncertainty
 
 ![image.png](image.png)
 
+# Training
+- Model: Densenet121 Pretrained Model (Imagenet) 
+- 3 Epochen
+- Adam Optimizer
+- Dealing with Uncertainty:
+    - U-Ignore
+    - U-Zeros
+    - U-Ones
+
+#Results:
+U-Ignore:
+![image.png](image.png)
+
+
+U-Zeroes:
+![image.png](image.png)
+
+
+U-Ones:
+![image.png](image.png)
+
+
 
 
 # Citation
