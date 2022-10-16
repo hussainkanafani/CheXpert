@@ -1,0 +1,23 @@
+image: python:latest
+
+
+
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  script:
+  - echo $CI_JOB_STAGE # calls a predefined variable
+  - python -V               #Print out python version for debugging
+
+unit_tests:
+  stage: test
+  script:
+  - echo $CI_JOB_STAGE # calls a predefined variable
+  - pip install -r requirements.txt
+  - python -m unittest -v tests/utils_test.py
+  - python -m unittest -v tests/data_augmentation_test.py
+  - python -m unittest -v tests/reading_data_test.py 
+
