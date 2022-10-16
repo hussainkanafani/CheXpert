@@ -12,7 +12,7 @@ Data can be otained from the [Challenge Website](https://stanfordmlgroup.github.
 
 # Implementation
 In this project the [CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison
-](https://arxiv.org/abs/1901.07031) is reimplemented.
+](https://arxiv.org/abs/1901.07031) is implemented.
 
 
 ![image.png](/images/chexpert.png)
