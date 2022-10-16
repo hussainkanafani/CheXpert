@@ -14,6 +14,10 @@ Data can be otained from the [Challenge Website](https://stanfordmlgroup.github.
 In this project the [CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison
 ](https://arxiv.org/abs/1901.07031) is reimplemented.
 
+
+![image.png](/images/chexpert.png)
+
+
 1. Data Science Pipeline: Build a ML Model with adjustable sensitivity
     
     1.1. implement preprocessing
@@ -29,7 +33,6 @@ In this project the [CheXpert: A Large Chest Radiograph Dataset with Uncertainty
 4. Show a working Codalab workflow 
 
 
-![image.png](image.png)
 
 # Training
 - Model: Densenet121 Pretrained Model (Imagenet) 
@@ -40,17 +43,20 @@ In this project the [CheXpert: A Large Chest Radiograph Dataset with Uncertainty
     - U-Zeros
     - U-Ones
 
-#Results:
-U-Ignore:
-![image.png](image.png)
+# Results:
+**U-Ignore:**
+
+![u-ignore.png](images/u-ignore.png)
 
 
-U-Zeroes:
-![image.png](image.png)
+**U-Zeroes:**
+
+![u-zeroes.png](images/u-zeroes.png)
 
 
-U-Ones:
-![image.png](image.png)
+**U-Ones:**
+
+![u-ones.png](images/u-ones.png)
 
 
 
